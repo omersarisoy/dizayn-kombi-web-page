@@ -1,5 +1,5 @@
 header {
-    .container-fluid {
+    .header-container {
         background-color: $light-grey;
         font-weight: 300;
 
@@ -10,16 +10,12 @@ header {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                color: $grey;
-
-
 
                 .header-right {
                     ul {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-
                     }
                 }
 
@@ -31,7 +27,6 @@ header {
                     line-height: 21px;
                     transition: all .5s ease;
 
-
                     &:hover {
                         color: $light-blue;
                     }
@@ -42,7 +37,6 @@ header {
                     }
                 }
 
-
                 .language {
                     position: relative;
                     transition: all .5s ease;
@@ -52,9 +46,7 @@ header {
                         opacity: 1;
                         visibility: visible;
                         transition: all .5s ease;
-
                     }
-
 
                     div {
                         position: absolute;
@@ -63,16 +55,15 @@ header {
                         line-height: 30px;
                         transform: translate(0, 15%);
                         transition: all .4s ease;
-                        border: 3px solid $grey;
                         opacity: 0;
                         visibility: hidden;
+                        box-shadow: 2px 5px 8px $grey;
 
                         ul {
                             display: flex;
                             flex-direction: column;
                         }
                     }
-
                 }
             }
         }
@@ -84,21 +75,86 @@ header {
         justify-content: space-between;
         padding: 30px 0;
 
+        // border: 3px solid red;
+
+        >div {
+            li {
+                position: relative;
+                transition: all .5s ease;
+
+                &:hover div {
+                    opacity: 1;
+                    visibility: visible;
+                    transition: all .5s ease;
+                }
+
+                div {
+                    position: absolute;
+                    z-index: 99;
+                    background-color: white;
+                    line-height: 30px;
+                    transform: translate(-10%, 0);
+                    transition: all .4s ease;
+                    width: 240px;
+                    padding-top: 45px;
+                    opacity: 0;
+                    visibility: hidden;
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        padding: 20px 25px;
+                        background-color: $light-blue;
+
+                        a {
+                            color: white;
+                            font-size: 13px;
+
+                            &:hover {
+                                color: white;
+                            }
+                        }
+                    }
+
+                    .kombiler {
+                        position: relative;
+
+                        li {
+                            width: 100%;
+
+                            &:hover div {
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+
+                        div {
+                            position: absolute;
+                            transform: translate(85%, -65.5%);
+                            opacity: 0;
+                            visibility: hidden;
+                        }
+                    }
+                }
+            }
+        }
+
         a {
             color: $black;
-            font-size:14px;
-            font-weight:500;
-            letter-spacing:0.14px;
-            line-height:21px;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.14px;
+            line-height: 21px;
 
-            &:hover{
+            &:hover {
                 color: $light-blue;
             }
 
-            i{
+            i {
                 font-size: 10px;
             }
-            
+
         }
 
         ul {
@@ -108,13 +164,15 @@ header {
         }
 
         .right-header {
-            i{
-            font-size: 30px;
+            i {
+                font-size: 30px;
+                color: $black;
+                transition: all .5s ease;
 
+                &:hover {
+                    color: $light-blue;
+                }
             }
         }
     }
-
-
-
 }
