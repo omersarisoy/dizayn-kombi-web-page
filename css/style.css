@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800");
+.design-container {
+  max-width: 1200px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header .container-fluid {
+  background-color: #f5f6f9;
+  font-weight: 300;
+}
+
+header .container-fluid .up-bar {
+  padding: 12px 0;
+}
+
+header .container-fluid .up-bar .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #787878;
+}
+
+header .container-fluid .up-bar .row .header-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container-fluid .up-bar .row a {
+  font-family: "Poppins";
+  font-size: 14px;
+  color: #787878;
+  letter-spacing: 0.14px;
+  line-height: 21px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+header .container-fluid .up-bar .row a:hover {
+  color: #39f;
+}
+
+header .container-fluid .up-bar .row a i {
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+header .container-fluid .up-bar .row .language {
+  position: relative;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  padding-left: 30px;
+}
+
+header .container-fluid .up-bar .row .language:hover div {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+header .container-fluid .up-bar .row .language div {
+  position: absolute;
+  background-color: white;
+  padding: 0 20px;
+  line-height: 30px;
+  -webkit-transform: translate(0, 15%);
+          transform: translate(0, 15%);
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  border: 3px solid #787878;
+  opacity: 0;
+  visibility: hidden;
+}
+
+header .container-fluid .up-bar .row .language div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .main-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0;
+}
+
+header .main-bar a {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.14px;
+  line-height: 21px;
+}
+
+header .main-bar a:hover {
+  color: #39f;
+}
+
+header .main-bar a i {
+  font-size: 10px;
+}
+
+header .main-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .main-bar .right-header i {
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */

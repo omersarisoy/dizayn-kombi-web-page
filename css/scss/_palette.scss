@@ -1,0 +1,20 @@
+$pink: #c6538c;
+$light-grey: #f5f6f9;
+$grey: #787878;
+$light-blue: #39f;
+$black: #333;
+
+
+// Source mixin
+@mixin make-container($padding-x: $container-padding-x) {
+    max-width: 1200px;
+    padding-right: $padding-x;
+    padding-left: $padding-x;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  // Usage
+  .design-container {
+    @include make-container(10px);
+  }
