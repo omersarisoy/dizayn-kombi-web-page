@@ -1,0 +1,84 @@
+.sss {
+    margin-bottom: 80px;
+
+    .container-fluid:nth-of-type(1) {
+        background-color: $dark-blue;
+
+        h2 {
+            padding: 25px 0 20px 0;
+            font-size: 21px;
+            font-weight: 500;
+            letter-spacing: -0.63px;
+            line-height: 23px;
+            color: white;
+        }
+    }
+
+    .container-fluid:nth-of-type(2) {
+        border-bottom: 1px solid $border-black;
+        margin-bottom: 2rem;
+
+        ol {
+            padding-top: 20px;
+
+            .breadcrumb-item.active {
+                color: $black;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 21px;
+            }
+
+            a {
+                color: $grey;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 21px;
+
+                &:hover {
+                    color: $light-blue;
+                }
+            }
+        }
+    }
+
+    .accordion {
+        .accordion-item {
+            border-right: none;
+            border-left: none;
+        }
+
+        .accordion-button {
+            color: $light-blue;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: -0.6px;
+            font-weight: 400;
+            background-color: #fff;
+            padding: 15px;
+
+            &:focus {
+                box-shadow: none;
+                color: $black;
+            }
+
+        }
+
+        .accordion-body {
+            padding: 0.5rem 1rem;
+        }
+
+        p {
+            font-size: 14px;
+            font-family: sans-serif;
+            font-weight: 300;
+            line-height: 26px;
+            color: $grey;
+
+            strong {
+                font-family: sans-serif;
+                font-weight: 700;
+                color: $dark-grey;
+            }
+        }
+    }
+}

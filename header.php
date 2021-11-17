@@ -1,3 +1,6 @@
+<?php
+    $url = 'http://localhost:8080/dizayn-kombi/';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,8 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/swiper.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="<?= $url?>css/swiper.css">
+    <link rel="stylesheet" href="<?= $url?>css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
@@ -20,7 +23,7 @@
 
     <header>
         <div class="container-fluid header-container">
-            <div class="design-container up-bar">
+            <div class="design-container menu-upbar">
                 <div class="row">
                     <div class="header-left col">
                         <li>
@@ -49,7 +52,7 @@
         </div>
         <div class="design-container main-bar">
             <div class="left-header col-2">
-                <li><a href="./"><img src="./image/dizayn-logo.png" alt="logo"></a></li>
+                <li><a href="<?= $url?>"><img src="<?= $url?>image/dizayn-logo.png" alt="logo"></a></li>
             </div>
             <div class="center-header col-7">
                 <ul>
@@ -58,28 +61,28 @@
                         <a href="">KURUMSAL <i class="fas fa-angle-down"></i></a>
                         <div>
                             <ul>
-                                <li><a href="">Hakkkımızda</a></li>
-                                <li><a href="">Sıkça Sorulan Sorular</a></li>
-                                <li><a href="">Tanıtım Filmimiz</a></li>
+                                <li><a href="<?= $url?>hakkimizda.php">Hakkımızda</a></li>
+                                <li><a href="<?= $url?>sss.php">Sıkça Sorulan Sorular</a></li>
+                                <li><a href="<?= $url?>tanitim.php">Tanıtım Filmimiz</a></li>
                             </ul>
                         </div>
                     </li>
                     <li>
                         <a href="">ÜRÜNLER <i class="fas fa-angle-down"></i></a>
                         <div>
-                            <ul class="kombiler">
+                            <ul class="sub-menu">
                                 <li>
-                                    <a href="">Kombiler</a>
+                                    <a href="<?= $url?>kombiler.php">Kombiler</a>
                                     <div>
                                         <ul>
-                                            <li><a href="">Kombitech Plus</a></li>
-                                            <li><a href="">Doru Kombi</a></li>
+                                            <li><a href="<?= $url?>kombitech.php">Kombitech Plus</a></li>
+                                            <li><a href="<?= $url?>doru-kombi.php">Doru Kombi</a></li>
 
                                         </ul>
                                     </div>
 
                                 </li>
-                                <li><a href="">Oda Termostatı</a></li>
+                                <li><a href="<?= $url?>termostat.php">Oda Termostatı</a></li>
                             </ul>
                         </div>
                     </li>

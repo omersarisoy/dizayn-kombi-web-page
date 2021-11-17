@@ -3,8 +3,8 @@ header {
         background-color: $light-grey;
         font-weight: 300;
 
-        .up-bar {
-            padding: 12px 0;
+        .menu-upbar {
+            padding: 10px 0;
 
             .row {
                 display: flex;
@@ -15,7 +15,11 @@ header {
                     ul {
                         display: flex;
                         align-items: center;
-                        justify-content: space-between;
+                        justify-content: space-evenly;
+                    }
+
+                    li {
+                    color: $grey;
                     }
                 }
 
@@ -23,7 +27,6 @@ header {
                     font-family: "Poppins";
                     font-size: 14px;
                     color: $grey;
-                    letter-spacing: 0.14px;
                     line-height: 21px;
                     transition: all .5s ease;
 
@@ -53,7 +56,7 @@ header {
                         background-color: white;
                         padding: 0 20px;
                         line-height: 30px;
-                        transform: translate(0, 15%);
+                        transform: translate(0, 12%);
                         transition: all .4s ease;
                         opacity: 0;
                         visibility: hidden;
@@ -73,9 +76,8 @@ header {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 30px 0;
+        padding: 25px 0;
 
-        // border: 3px solid red;
 
         >div {
             li {
@@ -96,7 +98,7 @@ header {
                     transform: translate(-10%, 0);
                     transition: all .4s ease;
                     width: 240px;
-                    padding-top: 45px;
+                    padding-top: 40px;
                     opacity: 0;
                     visibility: hidden;
 
@@ -117,7 +119,7 @@ header {
                         }
                     }
 
-                    .kombiler {
+                    .sub-menu {
                         position: relative;
 
                         li {
@@ -131,7 +133,7 @@ header {
 
                         div {
                             position: absolute;
-                            transform: translate(85%, -65.5%);
+                            transform: translate(85%, -64.2%);
                             opacity: 0;
                             visibility: hidden;
                         }
@@ -143,8 +145,7 @@ header {
         a {
             color: $black;
             font-size: 14px;
-            font-weight: 500;
-            letter-spacing: 0.14px;
+            font-weight: 400;
             line-height: 21px;
 
             &:hover {

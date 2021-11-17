@@ -41,22 +41,21 @@ require('header.php');
     <div class="design-container">
         <div class="hero-title">
             <h2>
-            Dizayn Kombi Kumbara
+                Dizayn Kombi Kumbara
             </h2>
         </div>
 
         <div>
             <p>
-            <strong>Dizayn Kombi Kumbara,</strong>   ayrıcalıklı <strong>Dizayn Kombi </strong> topluluğunun buluşma noktasıdır. Üyeler montajlarını yaptıkları cihazların barkodlarını okutarak kolayca puanlar kazanabilir, bu puanlarla diledikleri alışverişleri yapabilir ve <strong>Dizayn Kombi</strong>  ailesinin bir üyesi olmanın farklı imkanlarından faydalanabilirler. <a href="">Uygulamayı İndir</a> 
+                <strong>Dizayn Kombi Kumbara,</strong> ayrıcalıklı <strong>Dizayn Kombi </strong> topluluğunun buluşma noktasıdır. Üyeler montajlarını yaptıkları cihazların barkodlarını okutarak kolayca puanlar kazanabilir, bu puanlarla diledikleri alışverişleri yapabilir ve <strong>Dizayn Kombi</strong> ailesinin bir üyesi olmanın farklı imkanlarından faydalanabilirler. <a href="">Uygulamayı İndir</a>
             </p>
         </div>
-
-        <div>
-            <a href=""><img src="./image/dizayn-kumbara.jpeg" alt=""></a>
+        <div class="row">
+            <div class="col-3"><img src="./image/dizayn-1.png" alt=""></div>
+            <div class="col-3"><img src="./image/dizayn-2.png" alt=""></div>
+            <div class="col-3"><img src="./image/dizayn-3.png" alt=""></div>
+            <div class="col-3"><img src="./image/dizayn-4.png" alt=""></div>
         </div>
-
-        
-
     </div>
 </div>
 

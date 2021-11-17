@@ -1,0 +1,61 @@
+.kombiler {
+    margin-bottom: 80px;
+
+    .container-fluid:nth-of-type(1) {
+        background-color: $dark-blue;
+
+        h2 {
+            padding: 25px 0 20px 0;
+            font-size: 21px;
+            font-weight: 500;
+            letter-spacing: -0.63px;
+            line-height: 23px;
+            color: white;
+        }
+    }
+
+    .container-fluid:nth-of-type(2) {
+        border-bottom: 1px solid $border-black;
+        margin-bottom: 2rem;
+
+        ol {
+            padding-top: 20px;
+
+            .breadcrumb-item.active {
+                color: $black;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 21px;
+            }
+
+            a {
+                color: $grey;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 21px;
+
+                &:hover {
+                    color: $light-blue;
+                }
+            }
+        }
+    }
+    .design-container:nth-of-type(3) {
+        padding-top: 20px;
+        img {
+            width: 100%;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+            font-family: sans-serif;
+            color: $dark-grey;
+            font-weight: 300;
+            line-height: 22.5px;
+            letter-spacing: -0.18px;
+            padding-top: 7px;
+
+        }
+    }
+}
