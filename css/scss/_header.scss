@@ -165,13 +165,10 @@ header {
         }
 
         .right-header {
-            i {
-                font-size: 30px;
-                color: $black;
-                transition: all .5s ease;
-
+            img {
                 &:hover {
-                    color: $light-blue;
+                    fill: $light-blue;
+
                 }
             }
         }

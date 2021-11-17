@@ -56,7 +56,7 @@
             </div>
             <div class="center-header col-7">
                 <ul>
-                    <li><a href="">ANA SAYFA</a></li>
+                    <li><a href="<?= $url?>">ANA SAYFA</a></li>
                     <li>
                         <a href="">KURUMSAL <i class="fas fa-angle-down"></i></a>
                         <div>
@@ -101,7 +101,8 @@
                 </ul>
             </div>
             <div class="right-header">
-                <i class="fas fa-random"></i>
+                <img src="<?= $url?>image/random.svg" alt="random">
+                
             </div>
         </div>
     </header>
