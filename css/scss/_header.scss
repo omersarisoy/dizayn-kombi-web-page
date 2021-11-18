@@ -145,7 +145,7 @@ header {
         a {
             color: $black;
             font-size: 14px;
-            font-weight: 400;
+            font-weight: 500;
             line-height: 21px;
 
             &:hover {
@@ -165,7 +165,10 @@ header {
         }
 
         .right-header {
-            img {
+            svg {
+                fill:$black;
+                height: 24px;
+                transition: all .5s ease;
                 &:hover {
                     fill: $light-blue;
 

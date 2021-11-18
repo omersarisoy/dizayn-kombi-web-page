@@ -1,0 +1,101 @@
+.servis {
+    margin-bottom: 70px;
+
+    .container-fluid:nth-of-type(1) {
+        background-color: $dark-blue;
+
+        h2 {
+            padding: 25px 0 20px 0;
+            font-size: 21px;
+            font-weight: 500;
+            letter-spacing: -0.63px;
+            line-height: 23px;
+            color: white;
+        }
+    }
+
+    .container-fluid:nth-of-type(2) {
+        border-bottom: 1px solid $border-black;
+        margin-bottom: 2rem;
+
+        ol {
+            padding-top: 20px;
+
+            .breadcrumb-item.active {
+                color: $black;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 21px;
+            }
+
+            a {
+                color: $grey;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 21px;
+
+                &:hover {
+                    color: $light-blue;
+                }
+            }
+        }
+    }
+
+    .design-container:nth-of-type(3) {
+        p {
+            color: $dark-grey;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 200;
+            line-height: 30px;
+            text-align: justify;
+            margin-bottom: 10px;
+
+            strong {
+                font-weight: 600;
+                text-decoration: underline;
+            }
+        }
+
+        .select-menu {
+            select {
+                color: $dark-grey;
+                font-size: 14px;
+                font-weight: 200;
+                box-shadow: none;
+                padding: 6px 12px;
+                margin-bottom: 20px;
+                height: 40px;
+                box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 1px 0px;
+
+            }
+        }
+
+        .servis-kart {
+            h1 {
+                color: $dark-grey;
+                font-size: 24px;
+                font-family: sans-serif;
+                font-weight: 400;
+                letter-spacing: -0.72px;
+                line-height: 26.4px;
+                margin-bottom: 14px;
+            }
+
+            p {
+                color: $dark-grey;
+                font-size: 14px;
+                font-weight: 200;
+                line-height: 26px;
+
+                i {
+                    color: $light-blue;
+                    font-size: 20px;
+                    padding-right: 5px;
+
+                }
+
+            }
+        }
+    }
+}
