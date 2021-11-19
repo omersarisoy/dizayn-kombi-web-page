@@ -39,7 +39,6 @@ require("header.php");
                     <option value="6">ARTVİN</option>
                     <option value="7">KASTAMONU</option>
                 </select>
-
             </div>
 
             <div class="row servis-kart">
@@ -49,11 +48,9 @@ require("header.php");
                     <p><i class="fas fa-globe-europe"></i> GERZE</p>
                     <p><i class="fas fa-phone"></i> 0850 290 34 34</p>
                 </div>
-
             </div>
             </p>
         </div>
-
     </div>
 </div>
 

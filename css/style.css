@@ -147,10 +147,6 @@ table {
   border-spacing: 0;
 }
 
-img {
-  width: 100%;
-}
-
 header .header-container {
   background-color: #f5f6f9;
   font-weight: 300;
@@ -245,6 +241,179 @@ header .header-container .menu-upbar .row .language div ul {
           flex-direction: column;
 }
 
+header .header-container .menu-upbar .row .header-right-resp {
+  display: none;
+}
+
+header .header-container .menu-upbar .row .header-right-resp .links {
+  position: relative;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+header .header-container .menu-upbar .row .header-right-resp .links:hover div {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+header .header-container .menu-upbar .row .header-right-resp .links > div {
+  position: absolute;
+  background-color: white;
+  padding: 0 20px;
+  line-height: 30px;
+  -webkit-transform: translate(5%, 8%);
+          transform: translate(5%, 8%);
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-box-shadow: 2px 5px 8px #787878;
+          box-shadow: 2px 5px 8px #787878;
+  z-index: 99;
+  right: 0;
+  width: 235px;
+}
+
+header .header-container .menu-upbar .row .header-right-resp .links .language-resp {
+  position: relative;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+header .header-container .menu-upbar .row .header-right-resp .links .language-resp:hover div {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+header .header-container .menu-upbar .row .header-right-resp .links .language-resp div {
+  position: absolute;
+  background-color: white;
+  padding: 0 20px;
+  line-height: 30px;
+  -webkit-transform: translate(8.5%, 0);
+          transform: translate(8.5%, 0);
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-box-shadow: 2px 5px 8px #787878;
+          box-shadow: 2px 5px 8px #787878;
+  z-index: 99;
+  right: 0;
+  width: 235px;
+}
+
+header .header-container .menu-upbar .row .header-right-resp .links .language-resp div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .mobile-menu {
+  width: 280px;
+  height: 100vh;
+  background-color: white;
+  border: 3px solid red;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+header .mobile-menu span {
+  float: right;
+  padding: 15px;
+}
+
+header .mobile-menu span i {
+  font-size: 16px;
+  color: #555;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+header .mobile-menu span i:hover {
+  color: #3399ff;
+}
+
+header .mobile-menu h5 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #3399ff;
+  line-height: 20px;
+  padding: 8px 20px;
+  margin-top: 80px;
+  position: relative;
+}
+
+header .mobile-menu h5::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #3399ff;
+  left: 0;
+  bottom: 0;
+}
+
+header .mobile-menu > ul > li {
+  position: relative;
+  border-bottom: 1px solid #e4e4e4;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #555;
+}
+
+header .mobile-menu > ul > li:hover div {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+header .mobile-menu > ul > li:hover a {
+  color: #3399ff;
+}
+
+header .mobile-menu > ul > li:hover i {
+  color: #3399ff;
+}
+
+header .mobile-menu > ul > li a {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  color: #555;
+}
+
+header .mobile-menu > ul > li i {
+  color: #555;
+  font-size: 12px;
+}
+
+header .mobile-menu > ul div {
+  background-color: white;
+  line-height: 30px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  padding-top: 40px;
+  opacity: 0;
+  visibility: hidden;
+}
+
 header .main-bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -256,6 +425,24 @@ header .main-bar {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 25px 0;
+}
+
+header .main-bar .left-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .main-bar .left-header .menu-bar {
+  display: none;
+  padding: 0 25px;
+}
+
+header .main-bar .left-header .menu-bar i {
+  font-size: 25px;
 }
 
 header .main-bar > div li {
@@ -304,6 +491,7 @@ header .main-bar > div li div ul {
 header .main-bar > div li div ul a {
   color: white;
   font-size: 13px;
+  font-weight: 200;
 }
 
 header .main-bar > div li div ul a:hover {
@@ -661,7 +849,7 @@ header .main-bar .right-header svg:hover {
   color: #3399ff;
 }
 
-.home-hero img {
+.home-hero .row img {
   width: 100%;
 }
 
@@ -1309,7 +1497,7 @@ header .main-bar .right-header svg:hover {
   font-size: 14px;
   font-weight: 200;
   line-height: 26px;
-  text-align: left;
+  text-align: justify;
 }
 
 .iletisim .design-container:nth-of-type(3) p strong {
@@ -1477,6 +1665,7 @@ header .main-bar .right-header svg:hover {
   font-size: 14px;
   font-weight: 200;
   padding: 6px 12px;
+  margin-bottom: 20px;
   height: 245px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 1px 0px;
           box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 1px 0px;
@@ -1489,5 +1678,49 @@ header .main-bar .right-header svg:hover {
 
 .musteri .design-container:nth-of-type(3) img {
   height: 500px;
+}
+
+.musteri .design-container:nth-of-type(3) button {
+  background-color: #fff;
+  color: #3399ff;
+  border: 1px solid #3399ff;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: -0.14px;
+  line-height: 21px;
+  padding: 8px 11px 10px 18px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.musteri .design-container:nth-of-type(3) button:hover {
+  background-color: #3399ff;
+  color: white;
+}
+
+.musteri .design-container:nth-of-type(3) button:hover i {
+  color: white !important;
+}
+
+.musteri .design-container:nth-of-type(3) button i {
+  padding-left: 5px !important;
+  font-size: 12px !important;
+  -webkit-transition: all .5s ease !important;
+  transition: all .5s ease !important;
+}
+
+@media (max-width: 992px) {
+  header .header-right {
+    display: none;
+  }
+  header .center-header {
+    display: none;
+  }
+  header .header-container .menu-upbar .row .header-right-resp {
+    display: block;
+  }
+  header .main-bar .left-header .menu-bar {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,60 @@
+@media (max-width: 1500px) {
+    header {
+
+    }
+}
+
+@media (max-width: 1200px) {
+    header {
+
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+
+        .header-right {
+            display: none;
+        }
+        .center-header {
+            display: none;
+        }
+    }
+
+    header .header-container .menu-upbar .row .header-right-resp {
+        display: block;
+    }
+
+    header .main-bar .left-header .menu-bar {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+    @media (max-width: 768px) {
+        header {
+
+        }
+    }
+
+    @media (max-width: 480) {
+        header {
+
+        }
+    }
+
+    @media (max-width: 320) {
+        header {
+
+        }
+    }

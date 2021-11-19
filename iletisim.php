@@ -22,7 +22,7 @@ require("header.php");
     </div>
     <div class="design-container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 p-0">
                 <iframe width="100%" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=nidakule%20ata%C5%9Fehir&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a>
 
             </div>
@@ -30,11 +30,11 @@ require("header.php");
 
         <div class="row ">
             <div class="row col-6 ">
-                <div class="col-12"> 
+                <div class="col-12 p-0"> 
                     <h2>İletişim Bilgilerimiz</h2>
-                    <p><strong>Dizayn Kombi</strong> size bir telefon kadar yakın, dilerseniz iletişim formu ile de bize ulaşabilirsiniz.</p>
+                    <p><strong>Dizayn Kombi</strong> size bir telefon kadar yakın, dilerseniz iletişim formu ile de bize <br>   ulaşabilirsiniz.</p>
                 </div>
-                <div class="col-6 mb-5 ">
+                <div class="col-6 mb-5 ps-0 ">
                     <h4>Adres</h4>
 
                     <ul>

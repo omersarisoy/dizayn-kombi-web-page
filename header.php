@@ -28,12 +28,12 @@ $url = 'http://localhost:8080/dizayn-kombi/';
         <div class="container-fluid header-container">
             <div class="design-container menu-upbar">
                 <div class="row">
-                    <div class="header-left col">
+                    <div class="header-left col-xl-6 col-md-4">
                         <li>
                             <a href="facetime:14085551234"><i class="fas fa-phone"></i> +90 850 290 3434</a>
                         </li>
                     </div>
-                    <div class="header-right col-6">
+                    <div class="header-right col-xl-6 col-md-8">
                         <ul>
                             <li><a href="<?= $url ?>sertifika.php">Sertifikalarımız</a> &nbsp;|&nbsp;</li>
                             <li><a href="">İnsan Kaynakları</a> &nbsp;|&nbsp;</li>
@@ -50,12 +50,79 @@ $url = 'http://localhost:8080/dizayn-kombi/';
                             </li>
                         </ul>
                     </div>
+                    <div class="header-right-resp col-auto">
+                        <ul>
+                            <li class="links"><a href="">Links <i class="fas fa-angle-down"></i></a>
+                                <div class="link-open">
+                                    <ul>
+                                        <li><a href="<?= $url ?>sertifika.php">Sertifikalarımız</a></li>
+                                        <li><a href="">İnsan Kaynakları</a></li>
+                                        <li><a href="">Bayimiz Olmak İstermisiniz ?</a> </li>
+                                        <li class="language-resp">
+                                            <a href="">Language <i class="fas fa-angle-down"></i></a>
+                                            <div class="language-open-resp">
+                                                <ul>
+                                                    <li><a href="">English</a></li>
+                                                    <li><a href="">Arabian</a></li>
+                                                    <li><a href="">Russian</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <div class="mobile-menu">
+            <span><i class="fas fa-times"></i></span>
+
+            <h5>MENU</h5>
+
+            <ul>
+                <li><a href="">ANASAYFA</a></li>
+                <li>
+                    <a href="">KURUMSAL</a>
+                    <i class="fas fa-angle-down"></i>
+                    <div class="language-open">
+                                    <ul>
+                                        <li><a href="">English</a></li>
+                                        <li><a href="">Arabian</a></li>
+                                        <li><a href="">Russian</a></li>
+                                    </ul>
+                                </div>
+
+
+                </li>
+                <li><a href="">ÜRÜNLER</a><i class="fas fa-angle-down"></i>
+
+                </li>
+                <li><a href="">MÜŞTERİ HİZMETLERİ</a><i class="fas fa-angle-down"></i></li>
+                <li><a href="">İLETİŞİM</a></li>
+            </ul>
+
+
+
+
+
+
+        </div>
+
+
         <div class="design-container main-bar">
             <div class="left-header col-2">
-                <li><a href="<?= $url ?>"><img src="<?= $url ?>image/dizayn-logo.png" alt="logo"></a></li>
+
+                <div class="menu-bar">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <li>
+                    <a href="<?= $url ?>"><img src="<?= $url ?>image/dizayn-logo.png" alt="logo"></a>
+
+                </li>
             </div>
             <div class="center-header col-7">
                 <ul>
@@ -120,4 +187,7 @@ $url = 'http://localhost:8080/dizayn-kombi/';
 
             </div>
         </div>
+
+
+
     </header>

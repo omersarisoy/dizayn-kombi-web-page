@@ -40,6 +40,9 @@ require("header.php");
                         <div class="col-12">
                             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mesajınız" ></textarea>
                         </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Güvenlik Kodu">
+                        </div>
                     </div>
                     <button type="submit"> Gönder <i class="fas fa-long-arrow-alt-right"></i></button>
                 </form>
