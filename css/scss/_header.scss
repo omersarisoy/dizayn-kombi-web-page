@@ -11,6 +11,10 @@ header {
                 align-items: center;
                 justify-content: space-between;
 
+                .header-left {
+                    width: 50%;
+                }
+
                 .header-right {
                     ul {
                         display: flex;
@@ -100,38 +104,39 @@ header {
                             right: 0;
                             width: 235px;
 
-                            
-                            
+
+
                         }
+
                         .language-resp {
                             position: relative;
                             transition: all .5s ease;
-                            
-        
+
+
                             &:hover div {
                                 opacity: 1;
                                 visibility: visible;
                                 transition: all .5s ease;
                             }
-        
+
                             div {
-                            position: absolute;
-                            background-color: white;
-                            padding: 0 20px;
-                            line-height: 30px;
-                            transform: translate(8.5%,0 );
-                            transition: all .4s ease;
-                            opacity: 0;
-                            visibility: hidden;
-                            box-shadow: 2px 5px 8px $grey;
-                            z-index: 99;
-                            right: 0;
-                            width: 235px;
-        
+                                position: absolute;
+                                background-color: white;
+                                padding: 0 20px;
+                                line-height: 30px;
+                                transform: translate(8.5%, 0);
+                                transition: all .4s ease;
+                                opacity: 0;
+                                visibility: hidden;
+                                box-shadow: 2px 5px 8px $grey;
+                                z-index: 99;
+                                right: 0;
+                                width: 235px;
+
                                 ul {
                                     display: flex;
                                     flex-direction: column;
-                                }        
+                                }
                             }
                         }
                     }
@@ -141,24 +146,25 @@ header {
     }
 
     .mobile-menu {
+        display: none;
         width: 280px;
         height: 100vh;
         background-color: white;
-        border: 3px solid red;
         position: fixed;
         z-index: 999;
         top: 0;
         left: 0;
 
-        span {
+        .cross {
             float: right;
             padding: 15px;
 
-            
+
             i {
-                font-size:16px ;
+                font-size: 16px;
                 color: $dark-grey;
                 transition: all .5s ease;
+
                 &:hover {
                     color: $light-blue;
                 }
@@ -170,7 +176,7 @@ header {
             font-weight: 600;
             color: $light-blue;
             line-height: 20px;
-            padding:8px 20px;
+            padding: 8px 20px;
             margin-top: 80px;
             position: relative;
 
@@ -186,33 +192,36 @@ header {
         }
 
         >ul {
-            >li{
-                position: relative;
+            >li {
                 border-bottom: 1px solid $border-black;
-                padding:10px 20px;
+                padding: 10px 20px;
                 display: flex;
+                flex-direction: column;
                 justify-content: space-between;
                 color: $dark-grey;
 
-                &:hover div {
-                    opacity: 1;
-                    visibility: visible;
-                    transition: all .5s ease;
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    &:hover span {
+                        color:
+                            $light-blue;
+                    }
+
+                    &:hover i {
+                        color: $light-blue;
+                    }
+
                 }
 
-
-                &:hover a{
-                    color: $light-blue;
-                }
-                &:hover i{
-                    color: $light-blue;
-                }
-                a{
+                a,
+                span {
                     font-size: 12px;
                     font-weight: 300;
                     line-height: 18px;
                     color: $dark-grey;
-
                 }
 
                 i {
@@ -221,25 +230,28 @@ header {
                 }
             }
 
-            div {
-                // position: absolute;
-                // z-index: 99;
-                background-color: white;
-                line-height: 30px;
-                // transform: translate(-10%, 0);
-                transition: all .4s ease;
-                // width: 240px;
-                padding-top: 40px;
-                opacity: 0;
-                visibility: hidden;
 
+            
+            .sub-menu-item {
+                display: none;
+                transition: all .5s ease;
+                
+                li {
+                    padding: 0.7rem 0 0 0.9rem;
+                transition: all .5s ease;
 
+                    
+                    &:hover a {
+                        color: $light-blue;
+                    }
+                }
+            }
+            
+            .sub-menu-open {
+                display: block;
             }
 
         }
-
-
-
 
     }
 
@@ -255,13 +267,13 @@ header {
 
             .menu-bar {
                 display: none;
-                padding:0 25px;
-                
+                padding: 0 25px;
+
                 i {
                     font-size: 25px;
                 }
 
-        }
+            }
         }
 
 

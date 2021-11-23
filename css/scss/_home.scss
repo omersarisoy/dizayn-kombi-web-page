@@ -1,5 +1,4 @@
 .slider {
-    height: 400px;
     margin-bottom: 60px;
     background-color: $dark-blue;
     position: relative;
@@ -46,6 +45,8 @@
                 }
 
             }
+
+           
         }
     }
 
@@ -65,7 +66,7 @@
 
     .swiper-button-prev {
         position: absolute;
-        left: 15%;
+        left: 12%;
         background-color: $light-blue;
         color: white;
         width: 40px;
@@ -75,6 +76,22 @@
         &::after {
             font-size: 12px;
         }
+    }
+
+    .swiper-pagination-bullet {
+        background-color: #fff;
+       
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: red;
+        width: 1.2rem;
+        border-radius: 10px;
+    }
+
+    .swiper-pagination-bullet, .swiper-pagination-bullet-active {
+        opacity: 0;
+        visibility: hidden;
     }
 
 }

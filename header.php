@@ -28,7 +28,7 @@ $url = 'http://localhost:8080/dizayn-kombi/';
         <div class="container-fluid header-container">
             <div class="design-container menu-upbar">
                 <div class="row">
-                    <div class="header-left col-xl-6 col-md-4">
+                    <div class="header-left col-xl-6  col-sm-4 col-xs-4 p-0">
                         <li>
                             <a href="facetime:14085551234"><i class="fas fa-phone"></i> +90 850 290 3434</a>
                         </li>
@@ -50,7 +50,7 @@ $url = 'http://localhost:8080/dizayn-kombi/';
                             </li>
                         </ul>
                     </div>
-                    <div class="header-right-resp col-auto">
+                    <div class="header-right-resp col-3 col-sm-1">
                         <ul>
                             <li class="links"><a href="">Links <i class="fas fa-angle-down"></i></a>
                                 <div class="link-open">
@@ -78,30 +78,57 @@ $url = 'http://localhost:8080/dizayn-kombi/';
         </div>
 
         <div class="mobile-menu">
-            <span><i class="fas fa-times"></i></span>
+            <span class="cross"><i class="fas fa-times cross-icon"></i></span>
 
             <h5>MENU</h5>
 
             <ul>
-                <li><a href="">ANASAYFA</a></li>
+                <li><a href="<?= $url ?>">ANASAYFA</a></li>
                 <li>
-                    <a href="">KURUMSAL</a>
-                    <i class="fas fa-angle-down"></i>
-                    <div class="language-open">
-                                    <ul>
-                                        <li><a href="">English</a></li>
-                                        <li><a href="">Arabian</a></li>
-                                        <li><a href="">Russian</a></li>
-                                    </ul>
-                                </div>
+                    <div class="open-div">
+                        <span>KURUMSAL</span>
+                        <i class="fas fa-angle-down "></i>
 
+                    </div>
 
+                    <div class="sub-menu-item">
+                        <ul>
+                            <li><a href="<?= $url ?>hakkimizda.php">Hakkımızda</a></li>
+                            <li><a href="<?= $url ?>sss.php">Sıkça Sorulan Sorular</a></li>
+                            <li><a href="<?= $url ?>tanitim.php">Tanıtım Filmimiz</a></li>
+                        </ul>
+                    </div>
                 </li>
-                <li><a href="">ÜRÜNLER</a><i class="fas fa-angle-down"></i>
+                <li>
+                    <div class="open-div">
+                        <span>ÜRÜNLER</span>
+                        <i class="fas fa-angle-down"></i>
 
+                    </div>
+
+                    <div class="sub-menu-item">
+                        <ul>
+                            <li><a href="<?= $url ?>kombitech.php">Kombitech Plus</a></li>
+                            <li><a href="<?= $url ?>doru-kombi.php">Doru Kombi</a></li>
+                            <li><a href="<?= $url ?>termostat.php">Oda Termostatı</a></li>
+                        </ul>
+                    </div>
                 </li>
-                <li><a href="">MÜŞTERİ HİZMETLERİ</a><i class="fas fa-angle-down"></i></li>
-                <li><a href="">İLETİŞİM</a></li>
+
+                <li>
+                    <div class="open-div">
+                        <span>MÜŞTERİ HİZMETLERİ</span>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                    <div class="sub-menu-item">
+                        <ul>
+                            <li><a href="<?= $url ?>servis.php">Servislerimiz</a></li>
+                            <li><a href="<?= $url ?>musteri.php">Görüşlerinize İhtiyacımız Var</a></li>
+                            <li><a href="<?= $url ?>iletisim.php">Bayilik Başvuru Formu</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="<?= $url ?>iletisim.php">İLETİŞİM</a></li>
             </ul>
 
 
@@ -116,7 +143,7 @@ $url = 'http://localhost:8080/dizayn-kombi/';
             <div class="left-header col-2">
 
                 <div class="menu-bar">
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars hamburger-icon"></i>
                 </div>
 
                 <li>
@@ -184,10 +211,6 @@ $url = 'http://localhost:8080/dizayn-kombi/';
                     <g />
                     <g />
                 </svg>
-
             </div>
         </div>
-
-
-
     </header>

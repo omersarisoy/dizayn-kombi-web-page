@@ -1,13 +1,24 @@
 @media (max-width: 1500px) {
-    header {
 
+    .slider {
+        .swiper-button-next {
+            display: none;
+        }
+
+        .swiper-button-prev {
+            display: none;
+        }
+
+        .swiper-pagination-bullet,
+        .swiper-pagination-bullet-active {
+            opacity: 1;
+            visibility: visible;
+        }
     }
 }
 
 @media (max-width: 1200px) {
-    header {
 
-    }
 }
 
 @media (max-width: 992px) {
@@ -16,10 +27,18 @@
         .header-right {
             display: none;
         }
+
         .center-header {
             display: none;
         }
+
+        .right-header {
+            margin-right: 30px;
+        }
+
+
     }
+
 
     header .header-container .menu-upbar .row .header-right-resp {
         display: block;
@@ -29,32 +48,213 @@
         display: block;
     }
 
-
-
-
-
-
-
-
-
-
-
-    }
-
-    @media (max-width: 768px) {
-        header {
-
+    .down-footer {
+        div {
+            justify-content: center;
         }
     }
 
-    @media (max-width: 480) {
-        header {
+    .slider {
+        .swiper {
+            .swiper-slide {
+               
 
+    
+    
+                h2 {
+                    font-size: 26px;
+                    line-height: 32px;
+    
+                }
+    
+                p {
+                    font-size: 16px;
+                    line-height: 30px;
+    
+                }
+    
+                a {
+                    padding: 14px 44px;
+                    border-radius: 30px;
+                    font-size: 14px;
+                    line-height: 21px;
+    
+                    
+    
+                }
+    
+               
+            }
         }
     }
 
-    @media (max-width: 320) {
-        header {
+}
 
+@media (max-width: 768px) {
+
+    .slider {
+        .swiper {
+            .swiper-slide {
+               
+
+    
+    
+                h2 {
+                    font-size: 24px;
+                    line-height: 30px;
+    
+                }
+    
+                p {
+                    font-size: 14px;
+                    line-height: 28px;
+    
+                }
+    
+                a {
+                    padding: 12px 38px;
+                    border-radius: 30px;
+                    font-size: 12px;
+                    line-height: 18px;
+    
+                    
+    
+                }
+    
+               
+            }
         }
     }
+
+    .iletisim {
+        .adress {
+            margin-top: 20px;
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .bulten .bulten-member div button {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 10px;
+        border: none;
+        color: white;
+        background-color: #3399ff;
+        padding: 16px 50px;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .slider {
+        .swiper {
+            .swiper-slide {
+               
+
+    
+    
+                h2 {
+                    font-size: 22px;
+                    line-height: 28px;
+    
+                }
+    
+                p {
+                    font-size: 12px;
+                    line-height: 24px;
+    
+                }
+    
+                a {
+                    padding: 8px 20px;
+                    border-radius: 30px;
+                    font-size: 12px;
+                    line-height: 16px;
+    
+                    
+    
+                }
+    
+               
+            }
+        }
+    }
+
+    .iletisim-form {
+        margin-top: 40px!important;
+    } 
+}
+
+
+
+@media (max-width: 480px) {
+
+    .right-header {
+        display: none;
+    }
+
+    .slider {
+        .swiper {
+            .swiper-slide {
+               
+
+    
+    
+                h2 {
+                    font-size: 18px;
+                    line-height: 22px;
+    
+                }
+    
+                p {
+                    font-size: 10px;
+                    line-height: 21px;
+    
+                }
+    
+                a {
+                    padding: 6px 16px;
+                    border-radius: 30px;
+                    font-size: 10px;
+                    line-height: 14px;
+    
+                    
+    
+                }
+
+                img {
+                    width: 98%;
+                }
+    
+               
+            }
+        }
+    }
+
+    .down-footer{
+     
+        
+        div {
+            padding: 18px 0;
+            display: flex;
+            align-items: center;
+        }
+    
+        p {
+            font-size: 12px;
+            line-height: 24px;
+        }
+    
+        a {
+            font-size: 12px;
+            line-height: 24px;
+        }
+    }
+
+
+}
+

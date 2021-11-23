@@ -28,19 +28,19 @@ require("header.php");
             </div>
         </div>
 
-        <div class="row ">
-            <div class="row col-6 ">
-                <div class="col-12 p-0"> 
+        <div class="row gy-5 ">
+            <div class="row col-lg-6 col-12 ">
+                <div class="col-10"> 
                     <h2>İletişim Bilgilerimiz</h2>
-                    <p><strong>Dizayn Kombi</strong> size bir telefon kadar yakın, dilerseniz iletişim formu ile de bize <br>   ulaşabilirsiniz.</p>
+                    <p><strong>Dizayn Kombi</strong> size bir telefon kadar yakın, dilerseniz iletişim formu ile de bize  ulaşabilirsiniz.</p>
                 </div>
-                <div class="col-6 mb-5 ps-0 ">
+                <div class="col-sm-7 col-12 mb-5 adress  ">
                     <h4>Adres</h4>
 
                     <ul>
                         <li> 
                             <i class="fas fa-map-marker-alt"></i>
-                            <p>Mah. Adnan Menderes Cad. No:6, 34522 Esenyurt İstanbul</p>
+                            <p>Mah. Adnan Menderes Cad. No:6, <br> 34522 Esenyurt İstanbul</p>
                         </li>
                         <li> 
                             <i class="fas fa-phone"></i>
@@ -53,31 +53,31 @@ require("header.php");
                     </ul>
 
                 </div>
-                <div class="col-6 ps-5">
+                <div class="col-sm-5 col-12 ">
                     <h4>Çalışma Saatleri</h4>
                     <li> <i class="far fa-clock"></i> <p>Pazartesi - Pazar <br>09:00 - 18:00</p></li>
                      
                 </div>
             </div>
-            <div class="row col-6">
-                <div class="col-12">
+            <div class="row col-lg-6 col-12 iletisim-form ">
+                <div class="col-12  ">
                     <h2>İletişim Formu</h2>
                     <p>Satış ekibiyle iletişime geçmek için aşağıdaki formu kullanabilirsiniz.</p>
 
                 </div>
 
                 <form action="">
-                    <div class="row   gx-5">
-                        <div class="col-6 ">
+                    <div class="row gx-5 ">
+                        <div class="col-sm-6 col-12  ">
                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ad Soyad *">
                         </div>
-                        <div class="col-6">
+                        <div class="col-sm-6 col-12">
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail Adresiniz *">
                         </div>
-                        <div class="col-6">
+                        <div class="col-sm-6 col-12">
                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Telefon Numaranız">
                         </div>
-                        <div class="col-6">
+                        <div class="col-sm-6 col-12">
                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Konu Giriniz">
                         </div>
                         <div class="col-12">

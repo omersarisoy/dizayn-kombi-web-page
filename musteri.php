@@ -21,8 +21,8 @@ require("header.php");
         </div>
     </div>
     <div class="design-container">
-        <div class="row">
-            <div class="col-6">
+        <div class="row gy-5">
+            <div class="col-md-6 col-sm-12 " >
             <form action="">
                     <div class="row">
                         <div class="col-12">
@@ -47,7 +47,7 @@ require("header.php");
                     <button type="submit"> Gönder <i class="fas fa-long-arrow-alt-right"></i></button>
                 </form>
             </div>
-            <div class="col-5">
+            <div class="col-md-5 col-sm-12">
                 <img src="<?= $url ?>image/musteri-gorus.jpeg" alt="">
             </div>
             

@@ -22,13 +22,13 @@ require("header.php");
     </div>
     <div class="design-container">
         <div class="row">
-            <div class="col-3">
+            <div class="col-xl-3 col-sm-6">
                 <a href="<?= $url?>kombitech.php">
                     <img src="<?= $url?>image/kombimix.jpeg" alt="mix">
                     <p>Kombitech Plus</p>
                 </a>
             </div>
-            <div class="col-3">
+            <div class="col-xl-3 col-sm-6">
                 <a href="<?= $url?>doru-kombi.php">
                     <img src="<?= $url?>image/doru-kombi-plus.jpeg" alt="doru">
                     <p>Doru Kombi</p>

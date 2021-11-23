@@ -3,7 +3,7 @@
     <div class="container-fluid bulten">
         <div class="row">
             <div class="design-container">
-                <div class="bulten-member ">
+                <div class="bulten-member col-10">
                     <h3>E-Bülten Aboneliği</h3>
                     <p>Eposta adresinizi kayıt ederek güncel gelişmeler ve koleksiyonlardan haberdar olabilirsiniz.</p>
                     <div>
@@ -19,13 +19,13 @@
 
     <div class="design-container main-footer">
         <div class="row">
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-6">
                 <img src="<?= $url?>image/dizayn-logo.png" alt="logo">
                 <p>Atatürk Mah. Adnan Menderes Cad. No:6, 34522 Esenyurt İstanbul
                     info@dizaynkombi.com</p>
                 <a href="facetime:14085551234"><i class="fas fa-phone"></i> +90 850 290 3434</a>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-6">
                 <h4>KURUMSAL</h4>
                 <ul>
                     <li><a href="<?= $url?>hakkımızda.php">Hakkımızda</a></li>
@@ -33,7 +33,7 @@
                     <li><a href="">Tanıtım Filmi</a></li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-6">
                 <h4>ÜRÜNLER</h4>
                 <ul>
                     <li><a href="">Kombitech plus Kombi</a></li>
@@ -41,7 +41,7 @@
                     <li><a href="">Oda Termostati</a></li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-6">
                 <h4>MÜŞTERİ HİZMETLERİ</h4>
                 <ul>
                     <li><a href="">Servislerimiz</a></li>
@@ -52,13 +52,13 @@
         </div>
     </div>
 
-    <div class=" design-container down-footer">
-        <div>
+    <div class="row design-container down-footer">
+        <div class="col-lg-9 col-md-12">
             <p>Copyright © 2019 </p>
             <a href=""> Dizayn Grup. </a>
             <p>Tüm hakları saklıdır. </p>
         </div>
-        <div>
+        <div class="col-lg-3 col-md-12">
             <img src="<?= $url?>image/footer-card.png" alt="cards">
         </div>
     </div>

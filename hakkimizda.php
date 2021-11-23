@@ -21,8 +21,8 @@ require('header.php');
     </div>
     <div class="design-container">
         <div class="row">
-            <div class="col-4"><img src="<?= $url ?>image/kombimix.jpeg" alt=""></div>
-            <div class="col-8">
+            <div class="col-lg-4 col-md-6 sol-sm-12"><img src="<?= $url ?>image/kombimix.jpeg" alt=""></div>
+            <div class="col-lg-8 col-md-6 sol-sm-12">
                 
                 <h2>
                     Dizayn Kombi

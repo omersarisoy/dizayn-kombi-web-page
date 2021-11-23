@@ -22,10 +22,10 @@ require("header.php");
     </div>
     <div class="design-container">
         <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <img src="<?= $url ?>image/oda-termostati.jpeg" alt="mix">
             </div>
-            <div class="col-8">
+            <div class="col-lg-8 col-md-6 col-sm-12">
                 <div class="termo-hero">
                         <div class="hero-title">
                             <h2>
