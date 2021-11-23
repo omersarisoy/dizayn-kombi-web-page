@@ -33,9 +33,10 @@ $(document).ready(function(){
         $(this).siblings().toggleClass('sub-menu-open');
       });
       
-
-
-      
-      
-
+      $(function() {
+        $('.form-select').change(function(){
+          $('.kart').hide();
+          $('.' + $(this).val()).show();
+        });
+      });
   });

@@ -934,6 +934,16 @@ header .main-bar {
     margin-bottom: 20px;
     height: 40px;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 1px 0px; }
+  .servis .design-container:nth-of-type(3) .servis-kart div {
+    margin-bottom: 55px;
+    position: relative; }
+    .servis .design-container:nth-of-type(3) .servis-kart div::after {
+      content: "";
+      position: absolute;
+      width: 97%;
+      height: 1px;
+      background-color: #e4e4e4;
+      bottom: -20px; }
   .servis .design-container:nth-of-type(3) .servis-kart h1 {
     color: #555;
     font-size: 24px;

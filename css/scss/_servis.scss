@@ -72,6 +72,21 @@
         }
 
         .servis-kart {
+
+            div {
+                margin-bottom: 55px;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 97%;
+                    height: 1px;
+                    background-color: $border-black;
+                    bottom: -20px;
+                }
+
+            }
             h1 {
                 color: $dark-grey;
                 font-size: 24px;

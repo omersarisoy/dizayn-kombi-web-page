@@ -29,23 +29,78 @@ require("header.php");
 
             <div class="select-menu">
                 <select class="form-select" aria-label="Default select example">
-                    <option selected>SİNOP</option>
+                    <option selected value="0">SİNOP</option>
                     <option value="1">SİVAS</option>
-                    <option value="1">KARS</option>
                     <option value="2">SAMSUN</option>
                     <option value="3">KOCAELİ</option>
                     <option value="4">BALIKESİR</option>
                     <option value="5">ANTALYA</option>
                     <option value="6">ARTVİN</option>
                     <option value="7">KASTAMONU</option>
+                    <option value="8">KARS</option>
                 </select>
             </div>
 
             <div class="row servis-kart">
-                <div class="kart">
+                <div class="kart 0 col-md-6 col-sm-12 ">
                     <h1>SİNOP</h1>
                     <p><i class="fas fa-user"></i> PINAR TEKNİK</p>
                     <p><i class="fas fa-globe-europe"></i> GERZE</p>
+                    <p><i class="fas fa-phone"></i> 0850 290 34 34</p>
+                    
+                </div>
+                <div class="kart 2 col-md-6 col-sm-12">
+                    <h1>SAMSUN</h1>
+                    <p><i class="fas fa-user"></i> PINAR TEKNİK</p>
+                    <p><i class="fas fa-globe-europe"></i> YAKAKENT</p>
+                    <p><i class="fas fa-phone"></i> 0850 290 34 34</p>
+                </div>
+                <div class="kart 1 col-md-6 col-sm-12">
+                    <h1>SİVAS</h1>
+                    <p><i class="fas fa-user"></i> PINAR TEKNİK</p>
+                    <p><i class="fas fa-globe-europe"></i> DİVRİĞİ</p>
+                    <p><i class="fas fa-phone"></i> 0850 290 34 34</p>
+                </div>
+                <div class="kart 8 col-md-6 col-sm-12">
+                    <h1>KARS</h1>
+                    <p><i class="fas fa-user"></i> PINAR TEKNİK</p>
+                    <p><i class="fas fa-globe-europe"></i> DİGOR</p>
+                    <p><i class="fas fa-phone"></i> 0850 290 34 34</p>
+                </div>
+                <div class="kart 3 col-md-6 col-sm-12">
+                    <h1>KOCAELİ</h1>
+                    <p><i class="fas fa-user"></i> PINAR TEKNİK</p>
+                    <p><i class="fas fa-globe-europe"></i> GEBZE</p>
+                    <p><i class="fas fa-phone"></i> 0850 290 34 34</p>
+                </div>
+                <div class="kart 4 col-md-6 col-sm-12">
+                    <h1>BALIKESİR</h1>
+                    <p><i class="fas fa-user"></i> PINAR TEKNİK</p>
+                    <p><i class="fas fa-globe-europe"></i> MANYAS</p>
+                    <p><i class="fas fa-phone"></i> 0850 290 34 34</p>
+                </div>
+                <div class="kart 5 col-md-6 col-sm-12">
+                    <h1>ANTALYA</h1>
+                    <p><i class="fas fa-user"></i> PINAR TEKNİK</p>
+                    <p><i class="fas fa-globe-europe"></i> KAŞ</p>
+                    <p><i class="fas fa-phone"></i> 0850 290 34 34</p>
+                </div>
+                <div class="kart 6 col-md-6 col-sm-12">
+                    <h1>ARTVİN</h1>
+                    <p><i class="fas fa-user"></i> PINAR TEKNİK</p>
+                    <p><i class="fas fa-globe-europe"></i> HOPA</p>
+                    <p><i class="fas fa-phone"></i> 0850 290 34 34</p>
+                </div>
+                <div class="kart 7 col-md-6 col-sm-12">
+                    <h1>KASTAMONU</h1>
+                    <p><i class="fas fa-user"></i> PINAR TEKNİK</p>
+                    <p><i class="fas fa-globe-europe"></i> HANÖNÜ</p>
+                    <p><i class="fas fa-phone"></i> 0850 290 34 34</p>
+                </div>
+                <div class="kart 0 col-md-6 col-sm-12">
+                    <h1>SİNOP</h1>
+                    <p><i class="fas fa-user"></i> PINAR TEKNİK</p>
+                    <p><i class="fas fa-globe-europe"></i> DİKMEN</p>
                     <p><i class="fas fa-phone"></i> 0850 290 34 34</p>
                 </div>
             </div>
