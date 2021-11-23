@@ -20,6 +20,10 @@ $(document).ready(function(){
         $(".mobile-menu").css("display", "block");
         console.log(this);
       });
+      // $( ".hamburger-icon" ).click(function() {
+      //   $(".mobile-menu").css("transform", "translate(0,0)");
+      //   console.log(this);
+      // });
 
       $(".cross-icon").click(function() {
         $(".mobile-menu").css("display","none");
